@@ -68,7 +68,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          API="https://api.github.com/repos/Bush2021/chrome_plus/releases/latest"
+          API="https://github.com/smzhzy26/chrome_plus/actions/runs/36824161414/artifacts/11157645908"
 
           read FILE_NAME DOWNLOAD_URL <<<"$(
           curl -fsSL \
