@@ -68,7 +68,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          API="https://github.com/smzhzy26/chrome_plus/actions/runs/36824161414/artifacts"
+          API="https://github.com/smzhzy26/chrome_plus/actions/runs/36824161414"
 
           read FILE_NAME DOWNLOAD_URL <<<"$(
           curl -fsSL \
